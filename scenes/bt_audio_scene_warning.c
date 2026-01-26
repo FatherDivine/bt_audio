@@ -29,9 +29,7 @@ void bt_audio_scene_warning_on_enter(void* context) {
         "board with compatible firmware.\n\n"
         "Setup guide:\n"
         "github.com/FatherDivine/\n"
-        "flipperzero-firmware-wPlugins\n"
-        "blob/dev/applications/\n"
-        "external/bt_audio/README.md\n\n"
+        "bt_audio/README.md\n\n"
         "Press OK for QR code");
 
     widget_add_button_element(

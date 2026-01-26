@@ -13,7 +13,7 @@ App(
     ],
     fap_category="GPIO/ESP32",
     fap_author="Father Divine",
-    fap_weburl="https://github.com/FatherDivine/bt_audio-momentum",
+    fap_weburl="https://github.com/FatherDivine/bt_audio",
     fap_version="1.2",
     fap_description="Control ESP32 Bluetooth Audio via UART",
 )

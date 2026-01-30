@@ -5,6 +5,10 @@ All notable changes to the BT Audio project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3] - 2025-02-## (UNDER DEVELOPMENT)
+ - Adding ESP32-C5 Dualband (2.4 & 5 ghz) support for wifi audio streaming: menu item for wifi streaming that only shows up if dual-band esp's detected. As C5 *may not* support A2DP, Resarch shows it supports streaming audio over Wi-Fi (e.g., using ESP-ADF or I2S), & it supports I2S for connecting external DACs, allowing it to act as an audio player (playing from local storage) using the I2S Interface, even if it cannot stream via Bluetooth Classic. May can use LE Audio streaming with the LC3 codec via its Bluetooth Low Energy (BLE) 5 capability, which goes for the ESP32-C6 as well though that one doesn't have dualband wifi.
+ - Refactor bt_audio firmware if needed to implement device-specific changes (like C5). Likely not needed.
+
 ## [1.2] - 2025-01-25
 
 ### Fixed

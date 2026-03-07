@@ -237,10 +237,6 @@ Flipper SD card playback is marked as "Flipper SD (WIP)" in settings and is **ex
 ![Settings Menu](screenshots/settings_menu.png)
 *Settings menu with Audio Source SD selector (Flipper SD / ESP32 SD)*
 
-### Device List
-![Device List](screenshots/device_list.png)
-*List of discovered Bluetooth devices*
-
 ### Control Menu (Connected)
 ![Control Menu (Connected)](screenshots/control_menu.png)
 *Control menu after connecting: Now Playing, Play Music Folder, Play Playlist 1, Play Playlist2, Play Favorites (#), Play Test Tone, Play Jingle, Stop Playback, Reconnect, Disconnect*
